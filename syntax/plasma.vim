@@ -18,9 +18,8 @@ syn keyword plzOperator not
 syn keyword plzOperator and
 syn keyword plzOperator or
 
-" Bang when it is not part of !=, This overmatches the current use of ! in
-" Plamsa but that may be okay.
-syn match plzBang "![^=]" 
+" Match Bang when it is involved in a call.
+syn match plzBang "\v[a-zA-Z4-9_]!\("hs=s+1,he=e-1
 
 " Some pre-defined types.
 syn keyword plzType Int
