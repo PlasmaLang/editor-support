@@ -1,9 +1,9 @@
 # Plasma plugin for vim
 
 This plugin for the Vim text editor adds syntax highlighting for the
-[https://plasmalang.org](Plasma programming language).
+[Plasma programming language](https://plasmalang.org).
 As far as I know it can be installed with a plug-in manager, I'm using
-[https://github.com/tpope/vim-pathogen](pathogen).
+[pathogen](https://github.com/tpope/vim-pathogen).
 
 This is my first semi-serious attempt at writing a vim plugin.  If you'd
 like to improve it please send patches!
@@ -14,5 +14,5 @@ Pascal you may wish to remove this plugin or send a patch.
 Install pathogen (or another bundler) and I guess you can do:
 
     cd .vim/bundle/
-    git clone THIS_REPO
+    git clone https://github.com/PlasmaLang/vim.git plasma 
 
