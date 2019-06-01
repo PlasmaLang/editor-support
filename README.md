@@ -9,7 +9,8 @@ This is my first semi-serious attempt at writing a vim plugin.  If you'd
 like to improve it please send patches!
 
 Note that this takes over the .p file extension, so if you also work with
-Pascal you may wish to remove this plugin or send a patch.
+Pascal you may wish to remove this plugin or solve
+[#1](https://github.com/PlasmaLang/vim/issues/1).
 
 Install pathogen (or another bundler) and I guess you can do:
 
