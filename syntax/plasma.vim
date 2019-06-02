@@ -8,6 +8,7 @@ syn keyword plzModuleOp as
 syn keyword plzEntity type
 syn keyword plzEntity func
 syn keyword plzEntity resource
+syn keyword plzEntity var
 syn keyword plzResOp uses
 syn keyword plzResOp observes
 syn keyword plzControl return
