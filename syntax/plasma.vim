@@ -20,7 +20,7 @@ syn keyword plzOperator and
 syn keyword plzOperator or
 
 " Match Bang when it is involved in a call.
-syn match plzBang "\v[a-zA-Z4-9_]!\("hs=s+1,he=e-1
+syn match plzBang "\v[a-zA-Z0-9_]!\("hs=s+1,he=e-1
 
 " Some pre-defined types.
 syn keyword plzType Int
