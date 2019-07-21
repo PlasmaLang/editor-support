@@ -50,5 +50,5 @@ hi def link plzRes          Type
 hi def link plzResOp        Operator 
 hi def link plzString       String
 hi def link plzType         Type
-" plzOperator is not high-lighted.
+hi def link plzOperator     Operator
 
