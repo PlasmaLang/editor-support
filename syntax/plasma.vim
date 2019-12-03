@@ -1,4 +1,7 @@
 
+" the - symbol delimits keywords, unlike English.
+setlocal iskeyword=@,48-57,_,!,#,$,%
+
 " Keywords and other recognised syntax.
 syn keyword plzModule module
 syn keyword plzModule export
