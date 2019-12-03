@@ -30,7 +30,7 @@ syn keyword plzRes IO
 
 " Constants
 syn match plzNumber "\v<\d+>"
-syn match plzNumber "\v<\d+>.<\d+>"
+syn match plzNumber "\v<\d+\.\d+>"
 syn region plzString start=+"+ end=+"+ skip=+\\"+
 
 " Comments 
