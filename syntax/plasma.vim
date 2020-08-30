@@ -17,6 +17,7 @@ syn keyword plzResOp observes
 syn keyword plzControl return
 syn keyword plzConditional match
 syn keyword plzConditional if
+syn keyword plzConditional then
 syn keyword plzConditional else
 syn keyword plzOperator not
 syn keyword plzOperator and
