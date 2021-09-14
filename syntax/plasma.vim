@@ -29,6 +29,7 @@ syn keyword plzOperator or
 syn match plzBang "\v[a-zA-Z0-9_]!\("hs=s+1,he=e-1
 
 " Some pre-defined types.
+syn keyword plzType Bool
 syn keyword plzType Int
 syn keyword plzType List 
 syn keyword plzType String
