@@ -33,6 +33,7 @@ syn keyword plzType Bool
 syn keyword plzType Int
 syn keyword plzType List 
 syn keyword plzType String
+syn keyword plzType CodePoint
 syn keyword plzRes IO
 
 " Constants
