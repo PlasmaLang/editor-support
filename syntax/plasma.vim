@@ -10,6 +10,9 @@ syn keyword plzModule entrypoint
 syn keyword plzModule import
 syn keyword plzModuleOp from
 syn keyword plzModuleOp as
+syn keyword plzPragma pragma
+syn keyword plzPragmaOp foreign_include
+syn keyword plzEntity foreign
 syn keyword plzEntity type
 syn keyword plzEntity func
 syn keyword plzEntity resource
@@ -52,6 +55,8 @@ hi def link plzControl      Statement
 hi def link plzEntity       Typedef
 hi def link plzModule       PreProc
 hi def link plzModuleOp     PreProc
+hi def link plzPragma       PreProc
+hi def link plzPragmaOp     PreProc
 hi def link plzNumber       Number
 hi def link plzRes          Type
 hi def link plzResOp        Operator 
