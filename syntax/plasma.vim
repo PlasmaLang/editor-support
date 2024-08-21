@@ -5,7 +5,7 @@ setlocal iskeyword=@,48-57,_,!,#,$,%
 " Keywords and other recognised syntax.
 syn keyword plzModule module
 syn keyword plzModule export
-syn keyword plzModule abstract
+syn keyword plzModule opaque
 syn keyword plzModule entrypoint
 syn keyword plzModule import
 syn keyword plzModuleOp from
